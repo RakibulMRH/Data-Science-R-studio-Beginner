@@ -25,3 +25,10 @@ for (x in 1:2){
     print (x*y)
   }
 }
+
+a <- c(1,2,5,3,6,-2,4)
+b <- c("one","two","three")
+C <- c(TRUE, TRUE, TRUE, FALSE, TRUE, FALSE)
+a
+b
+c
