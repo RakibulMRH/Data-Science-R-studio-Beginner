@@ -56,3 +56,6 @@ library("dplyr")
 print(standard_deviation)
 mydata2 %>% summarise_if(is.numeric,sd)
 
+library("matrixStats")
+mydata2$score = rowSds(as.matrix(mydata2[,c(2,3)]))
+
